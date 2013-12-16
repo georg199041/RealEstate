@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{title}</title>
+  <meta charset="utf-8">
+  	<link rel='stylesheet' type="text/css" media="screen" href="/styles/reset.css">
+	<link rel='stylesheet' type="text/css" media="screen" href="/styles/style.css">
+	<link rel='stylesheet' type="text/css" media="screen" href="/styles/grid_12.css">
+	<link rel='stylesheet' type="text/css" media="screen" href="/styles/slider.css">
+	<link rel='stylesheet' type="text/css" media="screen" href="/styles/jqtransform.css">
+</head>
+<body>
+	<h1>{title}</h1>
+	<div class="main">
+		{+header}{/header}
+		{+body}{/body}
+		{+footer}{/footer}
+	</div>
+</body>
+</html>

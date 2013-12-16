@@ -1,0 +1,9 @@
+{>layout/}
+{<footer}
+<!--==============================footer=================================-->
+    <footer>
+        <p>© 2012 Real Estate</p>
+        <p><a rel="nofollow" href="http://templatemonster.com" target="_blank">Шаблоны сайтов</a> от TemplateMonster Russia</p>
+        <p><a href="http://makecorpsite.ru/">makecorpsite.ru</a> - как создать сайт-визитку.</p>
+    </footer>
+{/footer}
