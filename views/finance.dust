@@ -1,51 +1,39 @@
-{>header/}
-{<body}
-
-   
+{>layout/}
+{<content}
 <!--==============================content================================-->
 <section id="content"><div class="ic"></div>
     <div class="container_12">  
       <div class="grid_8">
-        <h2 class="top-1 p3">Welcome customer!</h2>
-        <p class="p2">Real Estate is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank" class="link">free website templates</a> created by TemplateMonster.com team. This website template is optimized for 1280X1024 screen resolution. It is also XHTML &amp; CSS valid.</p>
-        <p class="line-1">Download the basic package of this <a href="http://blog.templatemonster.com/2012/04/09/free-website-template-real-estate-justslider/" target="_blank" class="link">Real Estate Template</a> (without PSD source) that is available for anyone without registration. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the free template ZIP package to be delivered to.</p>
-        <h2 class="p4">Buyers. Sellers. Proprietors. Agents.</h2>
-        <div class="wrap block-1">
-            <div>
-                <img src="images/page1-img1.jpg" alt="" class="img-border">
-                <h3>Selling</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
-            </div>
-            <div>
-                <img src="images/page1-img2.jpg" alt="" class="img-border">
-                <h3>Investing</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
-            </div>
-            <div class="last">
-                <img src="images/page1-img3.jpg" alt="" class="img-border">
-                <h3>Renting</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
+        <h2 class="top-1 p3">About financing</h2>
+        <div class="wrap">
+            <img src="images/page5-img1.jpg" alt="" class="img-border img-indent">
+            <div class="extra-wrap">
+                <p class="color-1 p6">Aenean quis metus lacus, a commodo libero nam lacinia blandit dui vitae malesuada donec</p>
+                <p>Pellentesque scelerisque orci, ac tempor purus vulputate lobortis. Vestibulum porttitor sem mattis eros posuere vitae tristique justo congue curabitur consectetur.</p>
             </div>
         </div>
+        <p class="p5">Venenatis aliquam sit amet arcu justo in commodo consectetur lacus ac ultrices cras porta dignissim turpis fermentum porttitor aenean scelerisque nunc vel turpis faucibus vestibulum aenean volutpat iaculis nunc, sed accumsan lacus imperdiet eu.</p>
+        <a href="#" class="button">Read more</a>
+        <h2 class="top-2 p3">Financing center</h2>
+        <div class="wrap">
+            <img src="images/page5-img2.jpg" alt="" class="img-border img-indent">
+            <div class="extra-wrap">
+                <p class="color-1 p6">Aenean quis metus lacus, a commodo libero nam lacinia blandit dui vitae malesuada donec </p>
+                <p>Pellentesque scelerisque orci, ac tempor purus vulputate lobortis. Vestibulum porttitor sem mattis eros posuere vitae tristique justo congue curabitur consectetur.</p>
+            </div>
+        </div>
+        <p class="p5">Venenatis aliquam sit amet arcu justo in commodo consectetur lacus ac ultrices cras porta dignissim turpis fermentum porttitor aenean scelerisque nunc vel turpis faucibus vestibulum aenean volutpat iaculis nunc, sed accumsan lacus imperdiet eu.</p>
+        <a href="#" class="button">Read more</a>
       </div>
       <div class="grid_4">
         <div class="left-1">
             <h2 class="top-1 p3">Find your home</h2>
-            <form id="form-1" class="form-1 bot-1 jqtransformdone">
+            <form id="form-1" class="form-1 bot-2 jqtransformdone">
                 <div class="select-1">
-                    <label>Home type</label>
-                    <div class="jqTransformSelectWrapper"><div>Homes for sale</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">Homes for sale</a></li>
-                        </ul>
-                        <select name="select" class="jqTransformHidden" style="">
-                            <option>Homes for sale</option>
-                        </select>
-                    </div>   
+                    <label style="cursor: pointer;">Home type</label>
+                    <div class="jqTransformSelectWrapper" style="z-index: 10;"><div>Homes for sale</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 270px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">Homes for sale</a></li></ul><select name="select" style="">
+                        <option>Homes for sale</option>
+                    </select></div>   
                 </div>
                 <div>
                     <label>Location</label>
@@ -53,46 +41,26 @@
                 </div>
                 <div class="select-2">
                     <label style="cursor: pointer;">Beds</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">&nbsp;</a></li>
-                        </ul>
-                        <select name="select" class="jqTransformHidden" style="">
-                            <option>&nbsp;</option>
-                        </select>
-                    </div>   
+                    <div class="jqTransformSelectWrapper" style="z-index: 9;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
+                        <option>&nbsp;</option>
+                    </select></div>   
                 </div>
                 <div class="select-2 last">
-                    <label>Baths</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                    <a href="#" class="jqTransformSelectOpen"></a>
-                    <ul><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" class="jqTransformHidden" style="">
+                    <label style="cursor: pointer;">Baths</label>
+                    <div class="jqTransformSelectWrapper" style="z-index: 8;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
                         <option>&nbsp;</option>
                     </select></div>   
                 </div> 
                 <a onclick="document.getElementById('form-1').submit()" class="button">Search</a>
                 <div class="clear"></div>
             </form>
-            <h2 class="p3">Find our office</h2>
-            <img src="images/page1-img4.png" alt="">
-            <div class="lists">
-                <ul class="list-1">
-                    <li><a href="#">Asia</a></li>
-                    <li><a href="#">Australia</a></li>
-                    <li><a href="#">Africa</a></li>
-                </ul>
-                <ul class="list-1 last">
-                    <li><a href="#">North America</a></li>
-                    <li><a href="#">Europe</a></li>
-                    <li><a href="#">Latin America</a></li>
-                </ul>
-            </div>
+            <h2 class="p3">Did you know?</h2>
+            <p class="color-1 p6"><strong>At vero eos et accusam et justo doles et ea rebum</strong></p>
+            <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
         </div>
       </div>
       <div class="clear"></div>
     </div>  
 </section> 
- 
-{/body}
-{>footer/}
+
+{/content}

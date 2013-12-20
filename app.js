@@ -3,7 +3,8 @@ var express = require('express');
 var app = express();
 var routes = require('./routes');
 var path = require('path');
-var dust = require('dustjs-linkedin')
+var dust = require('dustjs-linkedin');
+dust.helpers = require('dustjs-helpers');
 var cons = require('consolidate');
 
 app.engine('dust', cons.dust);
@@ -11,7 +12,7 @@ app.configure(function() {
 	app.set('template_engine', 'dust');
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'dust');
-	app.use(express.favicon());
+	app.use(express.favicon('./favicon.ico'));
 	app.use(express.logger('dev'));
 	app.use(express.json());
 	app.use(express.urlencoded());

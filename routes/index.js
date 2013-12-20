@@ -1,5 +1,12 @@
 exports.index = function(req, res){  
-	res.render('index', { title: 'Index main Page' });
+	res.render('index', { 
+		title: 'Index main Page',
+		homes: [{
+			name: 'Homes for sale',
+		},{
+			name: 'Flats for sale'
+		}]
+	});
 };
 
 exports.buying = function(req, res){  

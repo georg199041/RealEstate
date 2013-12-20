@@ -1,51 +1,28 @@
-{>header/}
-{<body}
-
-   
+{>layout/}
+{<content}
 <!--==============================content================================-->
 <section id="content"><div class="ic"></div>
     <div class="container_12">  
       <div class="grid_8">
-        <h2 class="top-1 p3">Welcome customer!</h2>
-        <p class="p2">Real Estate is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank" class="link">free website templates</a> created by TemplateMonster.com team. This website template is optimized for 1280X1024 screen resolution. It is also XHTML &amp; CSS valid.</p>
-        <p class="line-1">Download the basic package of this <a href="http://blog.templatemonster.com/2012/04/09/free-website-template-real-estate-justslider/" target="_blank" class="link">Real Estate Template</a> (without PSD source) that is available for anyone without registration. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the free template ZIP package to be delivered to.</p>
-        <h2 class="p4">Buyers. Sellers. Proprietors. Agents.</h2>
-        <div class="wrap block-1">
-            <div>
-                <img src="images/page1-img1.jpg" alt="" class="img-border">
-                <h3>Selling</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
-            </div>
-            <div>
-                <img src="images/page1-img2.jpg" alt="" class="img-border">
-                <h3>Investing</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
-            </div>
-            <div class="last">
-                <img src="images/page1-img3.jpg" alt="" class="img-border">
-                <h3>Renting</h3>
-                <p>Nam liber tempor cum soluta no eleifend option congue nihil imperdiet doming iquod mazim placerat.</p>
-                <a href="#" class="button">More</a>
-            </div>
-        </div>
+        <h2 class="top-1 p3">Contact form</h2>
+        <form id="form" method="post">
+          <fieldset>
+            <label><strong>Your Name:</strong><input type="text" value=""></label>
+            <label><strong>Your E-mail:</strong><input type="text" value=""></label>
+            <label><strong>Your Message:</strong><textarea></textarea></label>
+            <div class="btns"><a href="#" class="button">Clear Send</a></div>
+          </fieldset>  
+        </form> 
       </div>
       <div class="grid_4">
         <div class="left-1">
             <h2 class="top-1 p3">Find your home</h2>
-            <form id="form-1" class="form-1 bot-1 jqtransformdone">
+            <form id="form-1" class="form-1 bot-2 jqtransformdone">
                 <div class="select-1">
-                    <label>Home type</label>
-                    <div class="jqTransformSelectWrapper"><div>Homes for sale</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">Homes for sale</a></li>
-                        </ul>
-                        <select name="select" class="jqTransformHidden" style="">
-                            <option>Homes for sale</option>
-                        </select>
-                    </div>   
+                    <label style="cursor: pointer;">Home type</label>
+                    <div class="jqTransformSelectWrapper" style="z-index: 10;"><div>Homes for sale</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 270px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">Homes for sale</a></li></ul><select name="select" style="">
+                        <option>Homes for sale</option>
+                    </select></div>   
                 </div>
                 <div>
                     <label>Location</label>
@@ -53,46 +30,30 @@
                 </div>
                 <div class="select-2">
                     <label style="cursor: pointer;">Beds</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">&nbsp;</a></li>
-                        </ul>
-                        <select name="select" class="jqTransformHidden" style="">
-                            <option>&nbsp;</option>
-                        </select>
-                    </div>   
+                    <div class="jqTransformSelectWrapper" style="z-index: 9;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
+                        <option>&nbsp;</option>
+                    </select></div>   
                 </div>
                 <div class="select-2 last">
-                    <label>Baths</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                    <a href="#" class="jqTransformSelectOpen"></a>
-                    <ul><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" class="jqTransformHidden" style="">
+                    <label style="cursor: pointer;">Baths</label>
+                    <div class="jqTransformSelectWrapper" style="z-index: 8;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
                         <option>&nbsp;</option>
                     </select></div>   
                 </div> 
                 <a onclick="document.getElementById('form-1').submit()" class="button">Search</a>
                 <div class="clear"></div>
             </form>
-            <h2 class="p3">Find our office</h2>
-            <img src="images/page1-img4.png" alt="">
-            <div class="lists">
-                <ul class="list-1">
-                    <li><a href="#">Asia</a></li>
-                    <li><a href="#">Australia</a></li>
-                    <li><a href="#">Africa</a></li>
-                </ul>
-                <ul class="list-1 last">
-                    <li><a href="#">North America</a></li>
-                    <li><a href="#">Europe</a></li>
-                    <li><a href="#">Latin America</a></li>
-                </ul>
-            </div>
+            <h2 class="p3">Our contacts</h2>
+            <dl>
+                <dt class="color-1 p2"><strong>8901 Marmora Road,<br>Glasgow, D04 89GR.</strong></dt>
+                <dd><span>Freephone:</span>+1 800 559 6580</dd>
+                <dd><span>Telephone:</span>+1 959 603 6035</dd>
+                <dd><span>E-mail:</span><a href="#" class="link">mail@demolink.org</a></dd>
+            </dl>
         </div>
       </div>
       <div class="clear"></div>
     </div>  
 </section> 
- 
-{/body}
-{>footer/}
+
+{/content}

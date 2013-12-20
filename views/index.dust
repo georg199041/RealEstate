@@ -1,7 +1,5 @@
-{>header/}
-{<body}
-
-   
+{>layout/}
+{<content}
 <!--==============================content================================-->
 <section id="content"><div class="ic"></div>
     <div class="container_12">  
@@ -42,8 +40,10 @@
                         <ul>
                             <li><a href="#" index="0" class="selected">Homes for sale</a></li>
                         </ul>
-                        <select name="select" class="jqTransformHidden" style="">
-                            <option>Homes for sale</option>
+                        <select name="select" style="">
+                            {#homes}
+                                <option>{name}</option>
+                            {/homes}
                         </select>
                     </div>   
                 </div>
@@ -58,7 +58,7 @@
                         <ul>
                             <li><a href="#" index="0" class="selected">&nbsp;</a></li>
                         </ul>
-                        <select name="select" class="jqTransformHidden" style="">
+                        <select name="select" style="">
                             <option>&nbsp;</option>
                         </select>
                     </div>   
@@ -67,7 +67,7 @@
                     <label>Baths</label>
                     <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
                     <a href="#" class="jqTransformSelectOpen"></a>
-                    <ul><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" class="jqTransformHidden" style="">
+                    <ul><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select"  style="">
                         <option>&nbsp;</option>
                     </select></div>   
                 </div> 
@@ -93,6 +93,5 @@
       <div class="clear"></div>
     </div>  
 </section> 
- 
-{/body}
-{>footer/}
+
+{/content}
