@@ -41,33 +41,6 @@
       </div>
       <div class="grid_4">
         <div class="left-1">
-            <h2 class="top-1 p3">Find your home</h2>
-            <form id="form-1" class="form-1 bot-2 jqtransformdone">
-                <div class="select-1">
-                    <label style="cursor: pointer;">Home type</label>
-                    <div class="jqTransformSelectWrapper" style="z-index: 10;"><div>Homes for sale</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 270px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">Homes for sale</a></li></ul><select name="select" style="">
-                        <option>Homes for sale</option>
-                    </select></div>   
-                </div>
-                <div>
-                    <label>Location</label>
-                    <input type="text" value="Address, City, Zip" onblur="if(this.value=='') this.value='Address, City, Zip'" onfocus="if(this.value =='Address, City, Zip' ) this.value=''">
-                </div>
-                <div class="select-2">
-                    <label style="cursor: pointer;">Beds</label>
-                    <div class="jqTransformSelectWrapper" style="z-index: 9;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
-                        <option>&nbsp;</option>
-                    </select></div>   
-                </div>
-                <div class="select-2 last">
-                    <label style="cursor: pointer;">Baths</label>
-                    <div class="jqTransformSelectWrapper" style="z-index: 8;"><div>&nbsp;</div><a href="#" class="jqTransformSelectOpen"></a><ul style="width: 128px; display: none; visibility: visible; height: 25px; overflow: hidden; top: 36px;"><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select" style="">
-                        <option>&nbsp;</option>
-                    </select></div>   
-                </div> 
-                <a onclick="document.getElementById('form-1').submit()" class="button">Search</a>
-                <div class="clear"></div>
-            </form>
             <h2 class="p3">Best offers</h2>
             <p class="color-1">Maecenas quis lacus eu tortor blandit venenatis aliquam </p>
             <p>Sit amet arcu justo in commodo consect etur lacus ac ultrices cras porta dignissim turpis fermentum porttitor aenean scelerisque nunc vel turpis faucibus vestibulum aenean volutpat iaculis nunc, sed accumsan lacus imperdiet eu. </p>
