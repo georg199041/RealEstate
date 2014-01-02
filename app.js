@@ -12,7 +12,7 @@ app.configure(function() {
 	app.set('template_engine', 'dust');
 	app.set('views', __dirname + '/views');
 	app.set('view engine', 'dust');
-	app.use(express.favicon('./favicon.ico'));
+	app.use(express.favicon());
 	app.use(express.logger('dev'));
 	app.use(express.json());
 	app.use(express.urlencoded());
@@ -28,15 +28,15 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 
-app.get('/buying.html', routes.buying);
+app.get('/buying', routes.buying);
 
-app.get('/selling.html', routes.selling);
+app.get('/selling', routes.selling);
 
-app.get('/renting.html', routes.renting);
+app.get('/renting', routes.renting);
 
-app.get('/finance.html', routes.finance);
+app.get('/finance', routes.finance);
 
-app.get('/contacts.html', routes.contacts);
+app.get('/contacts', routes.contacts);
 
 http.createServer(app).listen(8000, function(){
   console.log("Express server listening on port " + 8000);

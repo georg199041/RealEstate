@@ -1,5 +1,3 @@
-{>layout/}
-{<header}
 <!--==============================header=================================-->
 <header>
     <div>
@@ -10,36 +8,7 @@
             <a href="#" class="icon-2"></a>
             <a href="#" class="icon-1"></a>
         </div>
-        <div id="slide">        
-            <div class="slider" style="overflow: hidden;">
-                <ul class="items">
-                    <li style="display: none;"><img src="images/slider-1.jpg" alt=""></li>
-                    <li style="display: none;"><img src="images/slider-2.jpg" alt=""></li>
-                    <li style="display: none;"><img src="images/slider-3.jpg" alt=""></li>
-                </ul>
-            <div class="pic">
-                <div class="mask">
-                    <div></div>
-                </div>
-            </div>
-            <ul class="pagination">
-                <li class=""><a href="#"></a></li>
-                <li class="current"><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>    
-        <a href="#" class="prev"></a><a href="#" class="next"></a>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li class="current"><a href="index.html">Main</a></li>
-                <li><a href="buying.html">Buying</a></li>
-                <li><a href="selling.html">Selling</a></li>
-                <li><a href="renting.html">Renting</a></li>
-                <li><a href="finance.html">Finance</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
+        {>slider/}
+        {>menu/}
     </div>
 </header>
-{/header}

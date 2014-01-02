@@ -1,0 +1,8 @@
+<nav>
+    <ul class="menu">
+    	<!-- TODO class="current" for active menu -->
+    	{#menu}
+    		<li><a href="/{link}">{name}</a></li>
+        {/menu}
+    </ul>
+</nav>
