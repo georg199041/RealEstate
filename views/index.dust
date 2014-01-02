@@ -32,45 +32,55 @@
       <div class="grid_4">
         <div class="left-1">
             <h2 class="top-1 p3">Find your home</h2>
-            <form id="form-1" class="form-1 bot-1 jqtransformdone">
+
+            <!-- <form class="form-1" method="POST">
+
+                <div class="rowElem">
+                    <label>Select Redimentionné :</label>
+                    <select name="select2" >
+                        <option value="opt1">Big Option test line with more wordssss</option>
+                        <option value="opt2">Option 2</option>
+                        <option value="opt3">Option 3</option>
+                        <option value="opt4">Option 4</option>
+                        <option value="opt5">Option 5</option>
+                        <option value="opt6">Option 6</option>
+                        <option value="opt7">Option 7</option>
+                        <option value="opt8">Option 8</option>
+                    </select>
+                </div>
+                        
+            </form> -->
+            <!-- <form id="form-1" class="form-1 bot-1 jqtransformdone"> -->
+            <form class="form-1" method="POST">
                 <div class="select-1">
                     <label>Home type</label>
-                    <div class="jqTransformSelectWrapper"><div>Homes for sale</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">Homes for sale</a></li>
-                        </ul>
-                        <select name="select" style="">
-                            {#homes}
-                                <option>{name}</option>
-                            {/homes}
-                        </select>
-                    </div>   
+                    <select name="select2" >
+                        <option value="opt1">Homes for sale</option>
+                        <option value="opt2">Option 2</option>
+                        <option value="opt3">Option 3</option>
+                    </select>
                 </div>
+
                 <div>
                     <label>Location</label>
                     <input type="text" value="Address, City, Zip" onblur="if(this.value=='') this.value='Address, City, Zip'" onfocus="if(this.value =='Address, City, Zip' ) this.value=''">
                 </div>
                 <div class="select-2">
-                    <label style="cursor: pointer;">Beds</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                        <a href="#" class="jqTransformSelectOpen"></a>
-                        <ul>
-                            <li><a href="#" index="0" class="selected">&nbsp;</a></li>
-                        </ul>
-                        <select name="select" style="">
-                            <option>&nbsp;</option>
-                        </select>
-                    </div>   
+                    <label>Beds</label>
+                    <select name="select2" >
+                        <option value="opt1">1</option>
+                        <option value="opt2">2</option>
+                        <option value="opt3">3</option>
+                    </select>
                 </div>
                 <div class="select-2 last">
                     <label>Baths</label>
-                    <div class="jqTransformSelectWrapper"><div>&nbsp;</div>
-                    <a href="#" class="jqTransformSelectOpen"></a>
-                    <ul><li><a href="#" index="0" class="selected">&nbsp;</a></li></ul><select name="select"  style="">
-                        <option>&nbsp;</option>
-                    </select></div>   
-                </div> 
+                    <select name="select2" >
+                        <option value="opt1">1</option>
+                        <option value="opt2">2</option>
+                        <option value="opt3">3</option>
+                    </select>
+                </div>
                 <a onclick="document.getElementById('form-1').submit()" class="button">Search</a>
                 <div class="clear"></div>
             </form>

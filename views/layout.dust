@@ -8,6 +8,7 @@
 	<link rel='stylesheet' type="text/css" media="screen" href="/styles/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/styles/jqtransform.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/styles/slider.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/my-style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	<script src="/js/jquery.jqtransform.js"></script>
 	<script src="/js/tms-0.4.x.js"></script>
