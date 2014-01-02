@@ -29,6 +29,7 @@ app.configure('development', function(){
 app.get('/', routes.index);
 
 app.get('/buying', routes.buying);
+app.get('/buying/item/:id', routes.buyingItem);
 
 app.get('/selling', routes.selling);
 

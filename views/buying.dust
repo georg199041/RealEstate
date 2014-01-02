@@ -25,15 +25,15 @@
                                         <td valign="top">
                                             <div class="fleft">
                                                 <h4 class="large lheight20 margintop10">
-                                                <a href="#" class="link">{title}</a>
+                                                <a href="/buying/item/{id}" class="link">{title}</a>
                                                 </h4>
                                                 <p class="color-9">{desc}</p>
                                             </div>
                                         </td>
                                         <td width="100" valign="top">
                                             <div>
-                                                <p><strong>20 000 $</strong></p>
-                                                <span>Торг возможен</span>
+                                                <p><strong>{price} {currency}</strong></p>
+                                                <span>{?auction}Торг возможен{:else}Без торга{/auction}</span>
                                             </div>
                                         </td>
                                     </tr>

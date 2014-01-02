@@ -1,0 +1,8 @@
+{#item}
+	{id}<br/>
+	{date}<br/>
+	<img src="{img}"/><br/>
+	{title}<br/>
+	{desc}<br/>
+	{price}
+{/item}
