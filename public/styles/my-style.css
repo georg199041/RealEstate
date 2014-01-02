@@ -1,3 +1,10 @@
 table .fleft .color-9{
 	line-height: 16px;
 }
+
+table .rel img{
+	width: 100px;
+}
+table .offer{
+	padding: 10px 0 10px 0;
+}

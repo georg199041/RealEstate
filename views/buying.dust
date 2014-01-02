@@ -3,56 +3,37 @@
 <!--==============================content================================-->
 <section id="content"><div class="ic"></div>
     <div class="container_12">  
-        
-        <ul>
-            {#whatsBuying}
-                <li>{date}</li>
-            {/whatsBuying}
-        </ul>
-        
       <div class="grid_8">
         <div>
-            <table width="100%" cellspacing="0" cellpadding="0">
+            <table width="100%" cellspacing="0" cellpadding="0" summary="Объявление">
                 <tbody>
-                    <tr class="promoRow0">
-                        <td class="offer brbottdashc8 pding10_0 promoted ">
-                            <table width="100%" cellspacing="0" cellpadding="0" class="fixed breakword promoted-list" summary="Объявление">
+                    {#whatsBuying}
+                    <tr>
+                        <td class="offer">
+                            <table width="100%" cellspacing="0" cellpadding="0" summary="Объявление">
                                 <tbody>
+                                    
                                     <tr>
                                         <td width="75" class="tcenter" valign="top">
-                                            <p class="margintop10">25  дек.</p>
-                                            <div class="rel observelinkinfo zi3 ">
-                                                <a href="#" class="{id:121419297} observe-link inlblk lheight16 tdnone tcenter margintop5 vishid ">
-                                                <span class="icon inlblk observe2 observed-121419297">&nbsp;</span>
-                                                <span class="link x-small gray2 block lheight14"><span>  </span></span>
-                                                </a>
-                                            </div>
+                                            <p>{date}</p>
                                         </td>
-                                        <td width="120">
-                                            <span class="rel inlblk detailcloudbox">
-                                            <a class="thumb vtop inlblk rel tdnone linkWithHash linkWithHashPromoted scale4 detailsLinkPromoted stack" href="http://uman.chk.slando.ua/obyavlenie/prodam-dom-ID8dsHL.html#79f0c49c56;promoted" title="">
-                                            <img class="fleft br2 rel zi3 shadow" src="http://img11.slando.ua/images_slandocomua/118808425_1_94x72_prodam-dom-uman_rev016.jpg" alt="Продам дом">
-                                            <span class="abs border b2 shadow">&nbsp;</span>
-                                            <span class="abs border r2 shadow">&nbsp;</span>
+                                        <td width="120"  align="center">
+                                            <a class="rel" href="" title="">
+                                                <img src="{img}" alt="Продам дом">
                                             </a>
-                                            </span>
                                         </td>
                                         <td valign="top">
                                             <div class="fleft">
-                                                <h3 class="large lheight20 margintop10">
-                                                <a href="http://uman.chk.slando.ua/obyavlenie/prodam-dom-ID8dsHL.html#79f0c49c56;promoted" class="link linkWithHash linkWithHashPromoted detailsLinkPromoted refreshWebkit">
-                                                <span class="fbold">Продам дом</span>
-                                                </a>
-                                                </h3>
-                                                <p class="color-9 lheight14 margintop3">
-                                                <small class="breadcrumb small">Продажа домов » Продажа домов за городом<br>Умань, село Собковка</small>
-                                                </p>
+                                                <h4 class="large lheight20 margintop10">
+                                                <a href="#" class="link">{title}</a>
+                                                </h4>
+                                                <p class="color-9">{desc}</p>
                                             </div>
                                         </td>
-                                        <td width="100" class="wwnormal tright" valign="top">
-                                            <div class="space rel">
-                                                <p class="price large margintop10"><strong class="c000">20 000 $</strong></p>
-                                                <span class="x-small color-2">Торг возможен</span>
+                                        <td width="100" valign="top">
+                                            <div>
+                                                <p><strong>20 000 $</strong></p>
+                                                <span>Торг возможен</span>
                                             </div>
                                         </td>
                                     </tr>
@@ -60,6 +41,7 @@
                             </table>
                         </td>
                     </tr>
+                    {/whatsBuying}
                 </tbody>
             </table>
         </div>
